@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.logoName {
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+.logoName span {
+    color: orange;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
+
+.menu p{
+    color: white;
+    margin: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+}
+.general p{
+    color: white;
+    margin: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    margin-top: 60px;
+}
+.menu ul li,
+.general ul li {
+    margin: 20px;
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 1px;
+    position: relative;
+    font-family: "Nunito", sans-serif;
+}
+
+.menu ul li a,
+.general ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a::before,
+.general ul li a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: green;
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+}
+
+.menu ul li a:hover::before,
+.general ul li a:hover::before {
+    transform: scaleY(1);
+}
+
+.menu ul li a:hover,
+.general ul li a:hover {
+    color: orange;
+}
+
+.container {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  
+  .emoji-container {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,48 @@
+.dash {
+    background-color: rgb(41, 41, 40);
+    width: 70%;
+    height: 50%;
+    position: relative;
+    left: 16%;
+    top: 30px;
+    padding: 10px 15px 15px 10px;
+    border-radius: 5px;
+}
+
+.dash h1 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+.dash p {
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+.butt {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+}
+
+.butt .one-butt {
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 10px;
+    background-color: orange;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.butt #another-butt{
+    background-color: rgb(41, 41, 40);
+    border-color: orange;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar {
+    padding: 15px;
+    width: 50%;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  .button1 {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .button1 button {
+    padding: 25px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    border-radius: 50%;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    outline: none;
+  }
+  
+  .button1 button:hover {
+    background-color: rgb(60, 60, 60);
+  }
+  
+  .Lp {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Lp button {
+    padding: 25px 25px;
+    border-radius: 8px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(40, 40, 40);
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .Lp button:hover {
+    background-color: rgb(60, 60, 60);
+  }
+  
+  .user-info {
+    margin-left: 10px;
+    color: #fff;
+    text-align: right;
+  }
+  
+  .user-name {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .user-email {
+    display: block;
+    font-size: 0.9em;
+  }
+  

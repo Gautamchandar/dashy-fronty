@@ -1,0 +1,49 @@
+/* src/Box.css */
+.box {
+    background-color: #f97316; /* Orange color */
+    border-radius: 0.5rem; /* Rounded corners */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .header-text {
+    color: white;
+  }
+  
+  .icon-container {
+    background-color: white;
+    color: #f97316; /* Orange color */
+    border-radius: 50%;
+  }
+  
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .box-number {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .box-footer {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .footer-text {
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+  }
+  
